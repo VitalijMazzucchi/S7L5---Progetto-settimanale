@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, #6c3f60 0, #61355d 16.67%, #542a5b 33.33%, #441f59 50%, #301657 66.67%, #121056 83.33%, #000d56 100%);
+}
+
+h1 {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+#container {
+    text-align: center;
+}
+
+#container div {
+    background-image: linear-gradient(355deg, #7d4159 0, #773959 12.5%, #6f3159 25%, #652859 37.5%, #591f59 50%, #4b185a 62.5%, #3a135b 75%, #24125d 87.5%, #00125f 100%);
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    border: 0.6rem solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0.5rem 0.5rem 0.9rem rgb(0, 0, 0);
+}
+
+img {
+    border: 0.5rem solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+a {
+    color: crimson;
+}
